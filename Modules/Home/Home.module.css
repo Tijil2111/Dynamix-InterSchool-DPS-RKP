@@ -1,0 +1,46 @@
+.main {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.textCont {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10%;
+}
+.header {
+  font-size: 80px;
+  color: #181818;
+  font-weight: 600;
+}
+.subtitle {
+  color: #181818;
+  font-weight: 400;
+}
+.btn {
+  color: #181818;
+  font-weight: bold;
+  margin-top: 10%;
+  height: 65px;
+  width: 260px;
+  background-color: white;
+  border-radius: 100px;
+}
+.spacer {
+  flex: 1;
+}
+
+@media only screen and (max-width: 1200px) {
+  .main {
+    padding-top: 15%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+  }
+  .textCont {
+    align-items: center;
+    justify-content: center;
+  }
+}
