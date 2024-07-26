@@ -1,0 +1,93 @@
+.main {
+  padding-top: 5%;
+  display: flex;
+  flex-direction: column;
+}
+.top {
+  display: flex;
+  height: 50vh;
+  padding-left: 10%;
+}
+.bottom {
+  background-color: #439b7a;
+}
+.row {
+  display: flex;
+}
+.spacer {
+  flex: 1;
+}
+.spacer1 {
+  flex: 0.5;
+}
+.image {
+  padding-right: 10%;
+}
+.company {
+  letter-spacing: 15px;
+  font-weight: 200;
+  padding-left: 1%;
+}
+.span {
+  color: white;
+}
+.title {
+  font-weight: 600;
+  font-size: 64px;
+}
+.form {
+  padding-top: 10%;
+}
+.label {
+  font-size: 18px;
+  font-weight: 600;
+  padding-top: 5%;
+}
+
+.input {
+  margin-top: 3%;
+  height: 40px;
+  width: 400px;
+  border-radius: 18px;
+  font-weight: 400;
+  padding: 10px;
+  border: none;
+}
+
+.input:focus {
+  outline: none;
+}
+.btn {
+  color: white;
+  font-weight: bold;
+  margin-top: 10%;
+  height: 45px;
+  width: 260px;
+  background-color: #0d261e;
+  border-radius: 100px;
+}
+
+.textArea {
+  align-self: center;
+  padding-left: 10%;
+}
+
+.title1 {
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+}
+.subtitle1 {
+  font-weight: 400;
+  font-size: 20px;
+  color: white;
+}
+
+.row2 {
+  padding-top: 25px;
+  padding-bottom: 20px;
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  font-weight: 500;
+}
