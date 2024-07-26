@@ -8,6 +8,11 @@ export default function CommunityModule() {
           <p className={styles.title}>
             Join the <span className={styles.span}> Community. </span>
           </p>
+          <p className={styles.subtitle}>
+            Be a part of the Lifelift community to become a part of our vibrant
+            and supportive network designed to make thrive, stay active, and
+            remain conducted with people and activities you love!
+          </p>
         </div>
         <div className={styles.spacer}></div>
         <div className={styles.image}>put picture here ig</div>
@@ -28,8 +33,8 @@ export default function CommunityModule() {
 
               <p className={styles.label}>Feedback</p>
               <input className={styles.input}></input>
+              <button className={styles.btn}>Submit</button>
             </div>
-            <button className={styles.btn}>Submit</button>
           </div>
         </div>
         <div className={styles.row2}>
