@@ -5,7 +5,7 @@ import Header from "../../Components/Header/Header";
 const urbanist = Urbanist({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "DynamiX",
+  title: "LifeLift",
   description: "Empowering Seniors, Enhancing Lives",
 };
 

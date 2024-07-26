@@ -8,7 +8,7 @@ export default function HomeScreen() {
     <div>
       <div className={styles.main}>
         <div className={styles.textCont}>
-          <h1 className={styles.header}>DynamiX</h1>
+          <h1 className={styles.header}>LifeLift</h1>
           <p className={styles.subtitle}>Empowering Seniors, Enhancing Lives</p>
           <Link href={"/join"}>
             <button className={styles.btn}>Join Us Now !</button>

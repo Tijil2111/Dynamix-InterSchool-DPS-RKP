@@ -15,7 +15,7 @@ export default function Header() {
             id={styles.title}
             className={`${styles.navLink} ${open ? styles.mobileTitle : ""}`}
           >
-            DynamiX
+            LifeLift
           </div>
         </Link>
         <List

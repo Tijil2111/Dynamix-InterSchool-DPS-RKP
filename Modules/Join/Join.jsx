@@ -3,7 +3,7 @@ export default function JoinModule() {
   return (
     <div className={styles.main}>
       <div className={styles.headText}>
-        <p className={styles.company}>DYNAMIX</p>
+        <p className={styles.company}>LifeLift</p>
         <p className={styles.title}>
           <span className={styles.span}>Join </span>Us
         </p>
