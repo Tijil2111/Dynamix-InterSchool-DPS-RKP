@@ -37,12 +37,12 @@ export default function Header() {
         />
         <ul className={styles.navList} id={open ? styles.mobileOpen : ""}>
           <li className={`${styles.navListItem}`}>
-            <Link href="/products">
+            <Link href="/about">
               <div className={styles.navLink}>About Us</div>
             </Link>
           </li>
           <li className={`${styles.navListItem}`}>
-            <Link href="/reviews">
+            <Link href="/learn_more">
               <div className={styles.navLink}>Learn More</div>
             </Link>
           </li>
@@ -52,12 +52,12 @@ export default function Header() {
             </Link>
           </li>
           <li className={`${styles.navListItem}`}>
-            <Link href="/forum">
+            <Link href="/community">
               <div className={styles.navLink}>Our Community</div>
             </Link>
           </li>
           <li className={`${styles.navListItem}`} id={styles.lastItem}>
-            <Link href="/contact">
+            <Link href="/community">
               <div id={styles.contactBtn}>Contact Us</div>
             </Link>
           </li>
