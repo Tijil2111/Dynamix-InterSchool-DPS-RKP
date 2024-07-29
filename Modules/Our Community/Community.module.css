@@ -21,7 +21,9 @@
   flex: 0.5;
 }
 .image {
-  padding-right: 10%;
+  padding-right: 10;
+  height: 350px;
+  width: 320px;
 }
 .company {
   letter-spacing: 15px;
@@ -104,6 +106,16 @@
   .main {
     justify-content: center;
     align-items: center;
+  }
+  .image {
+    display: none;
+  }
+  .subtitle {
+    width: 250px;
+    padding-top: 5%;
+    text-align: justify;
+    color: white;
+    font-weight: 600;
   }
   .top {
     flex-direction: column;

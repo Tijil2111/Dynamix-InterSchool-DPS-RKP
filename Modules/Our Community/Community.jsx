@@ -1,4 +1,6 @@
 import styles from "./Community.module.css";
+import Image from "next/image";
+import chat1 from "/public/community/chat.png";
 export default function CommunityModule() {
   return (
     <div className={styles.main}>
@@ -15,7 +17,8 @@ export default function CommunityModule() {
           </p>
         </div>
         <div className={styles.spacer}></div>
-        <div className={styles.image}>put picture here ig</div>
+
+        <Image src={chat1} alt={"chat pic"} className={styles.image} />
       </div>
       <div className={styles.bottom}>
         <div className={styles.row}>
