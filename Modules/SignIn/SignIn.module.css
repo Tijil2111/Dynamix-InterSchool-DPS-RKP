@@ -69,13 +69,14 @@
   border-radius: 100px;
 }
 .pass {
-  padding-top: 5px;
+  padding-top: 25px;
+  padding-bottom: 25px;
   padding-left: 120px;
   font-weight: 400;
   color: #00457e;
 }
 .pass1 {
-  padding-top: 5px;
+  padding-top: 25px;
   padding-left: 150px;
   font-weight: 400;
   color: #00457e;
