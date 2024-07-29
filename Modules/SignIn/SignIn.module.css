@@ -1,0 +1,116 @@
+.main {
+  padding-top: 5%;
+  padding-left: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.left {
+  display: flex;
+  flex-direction: column;
+  padding-left: 1%;
+}
+.spacer {
+  flex: 0.7;
+}
+.company {
+  letter-spacing: 15px;
+  font-weight: 200;
+  padding-left: 1%;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  padding-top: 5%;
+}
+.span {
+  color: white;
+}
+.title {
+  font-weight: 600;
+  font-size: 64px;
+}
+
+.label {
+  font-size: 18px;
+  font-weight: 600;
+  padding-top: 10%;
+}
+.input {
+  margin-top: 1%;
+  height: 40px;
+  width: 400px;
+  border-radius: 18px;
+  font-weight: 400;
+  padding: 10px;
+  border: none;
+}
+.input:focus {
+  outline: none;
+}
+.inputArea {
+  margin-top: 3%;
+  height: 95px;
+  width: 400px;
+  border-radius: 18px;
+  font-weight: 400;
+  padding: 10px;
+  border: none;
+}
+
+.btn {
+  color: white;
+  font-weight: bold;
+  margin-top: 10%;
+  height: 65px;
+  width: 260px;
+  background-color: #0d261e;
+  border-radius: 100px;
+}
+.pass {
+  padding-top: 5px;
+  padding-left: 120px;
+  font-weight: 400;
+  color: #00457e;
+}
+.pass1 {
+  padding-top: 5px;
+  padding-left: 150px;
+  font-weight: 400;
+  color: #00457e;
+}
+.btn {
+  margin-left: 70px;
+  color: white;
+  font-weight: bold;
+  margin-top: 1%;
+  height: 65px;
+  width: 260px;
+  background-color: #0d261e;
+  border-radius: 100px;
+}
+@media only screen and (max-width: 1030px) {
+  .main {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .company {
+    text-align: center;
+  }
+  .image {
+    display: none;
+  }
+  .left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .rightCol {
+    padding-right: 0%;
+    justify-content: center;
+    align-items: center;
+  }
+}

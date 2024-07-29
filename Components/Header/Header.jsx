@@ -42,23 +42,28 @@ export default function Header() {
             </Link>
           </li>
           <li className={`${styles.navListItem}`}>
-            <Link href="/learn_more">
-              <div className={styles.navLink}>Learn More</div>
-            </Link>
-          </li>
-          <li className={`${styles.navListItem}`}>
-            <Link href="/forum">
-              <div className={styles.navLink}>Our Workshops</div>
-            </Link>
-          </li>
-          <li className={`${styles.navListItem}`}>
             <Link href="/community">
               <div className={styles.navLink}>Our Community</div>
             </Link>
           </li>
-          <li className={`${styles.navListItem}`} id={styles.lastItem}>
-            <Link href="/community">
-              <div id={styles.contactBtn}>Contact Us</div>
+          <li className={`${styles.navListItem}`}>
+            <Link href="/wellness">
+              <div className={styles.navLink}>Wellness</div>
+            </Link>
+          </li>
+          <li className={`${styles.navListItem}`}>
+            <Link href="/shop">
+              <div className={styles.navLink}>Shop</div>
+            </Link>
+          </li>
+          <li className={`${styles.navListItem}`}>
+            <Link href="/dashboard">
+              <div className={styles.navLink}>Profile</div>
+            </Link>
+          </li>
+          <li className={`${styles.navListItem}`}>
+            <Link href="/signin">
+              <div className={styles.navLink}>Sign In</div>
             </Link>
           </li>
         </ul>

@@ -25,6 +25,8 @@ export default function JoinModule() {
             </div>
             <p className={styles.label}>Phone Number</p>
             <input className={styles.input}></input>
+            <p className={styles.label}>Password</p>
+            <input className={styles.input} type="password"></input>
           </div>
         </div>
         <div className={styles.spacer}></div>
