@@ -23,7 +23,7 @@ export default function Header() {
           weight="bold"
           onClick={() => setOpen(true)}
           id={styles.icon}
-          className={open ? styles.hidden : styles.iconVisible}
+          className={!open ? styles.iconVisible : styles.hidden}
         />
       </div>
 
@@ -33,7 +33,7 @@ export default function Header() {
           weight="bold"
           id={styles.icon}
           onClick={() => setOpen(false)}
-          className={!open ? styles.hidden : styles.iconVisible}
+          className={open ? styles.iconVisible : styles.hidden}
         />
         <ul className={styles.navList} id={open ? styles.mobileOpen : ""}>
           <li className={`${styles.navListItem}`}>

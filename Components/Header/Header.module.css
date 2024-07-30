@@ -74,8 +74,14 @@
   display: none;
 }
 
+.mobileHeader {
+  flex-direction: column !important;
+  align-items: center;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
 #iconVisible {
-  display: block;
   align-self: flex-end;
   color: black;
 }
@@ -89,13 +95,6 @@
   flex-direction: column;
 }
 
-.mobileHeader {
-  flex-direction: column !important;
-  text-align: center;
-  padding-top: 25px;
-  padding-bottom: 25px;
-}
-
 .mobileTitle {
   margin-bottom: 25px;
 }
@@ -106,14 +105,11 @@
   width: 100%;
 }
 
-#icon {
-  cursor: pointer;
-}
-
 @media only screen and (max-width: 1030px) {
   #icon {
     display: block;
     color: black;
+    cursor: pointer;
   }
   .navList {
     display: none;

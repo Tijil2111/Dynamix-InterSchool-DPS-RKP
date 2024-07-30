@@ -1,0 +1,147 @@
+.main {
+  padding-top: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 10%;
+}
+.mainText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.company {
+  letter-spacing: 15px;
+  font-weight: 200;
+  text-align: center;
+}
+.span {
+  color: white;
+}
+.title {
+  font-weight: 600;
+  font-size: 64px;
+}
+.mainContent {
+  display: flex;
+  padding-left: 10%;
+  padding-top: 5%;
+}
+.leftCol {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.inputRow {
+  display: flex;
+  padding-left: 2%;
+}
+.input {
+  height: 60px;
+  width: 300px;
+  border-radius: 10px;
+  background-color: #fff0f0;
+  color: #181818;
+  padding-left: 20px;
+  font-size: 20px;
+}
+.icon {
+  padding-top: 15px;
+  padding-left: 15px;
+  color: grey;
+}
+.qualityBoxCol {
+  padding-top: 8%;
+}
+.qualityBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2%;
+  width: 400px;
+  height: 80px;
+  border-radius: 10px;
+  background-color: white;
+}
+.boxLine {
+  margin-left: 8%;
+  margin-right: 10%;
+  height: 80px;
+  border: solid 1px black;
+}
+.boxLine1 {
+  margin-left: 6%;
+  margin-right: 10%;
+  height: 80px;
+  border: solid 1px black;
+}
+.qualityBoxText {
+  font-size: 25px;
+  font-weight: 500;
+}
+.qualityBoxText1 {
+  font-size: 25px;
+  padding-right: 18%;
+  font-weight: 500;
+}
+.spacer {
+  flex: 0.3;
+}
+.line {
+  height: 800px;
+  border: solid 1px black;
+}
+.rightCol {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+.titleRight {
+  font-size: 40px;
+  padding-top: 5%;
+  font-weight: bold;
+}
+.reviewCard {
+  display: flex;
+  padding-right: 20px;
+}
+.cardTitle {
+  font-size: 20px;
+  padding-left: 25px;
+  font-weight: 600;
+}
+.stars {
+  padding-left: 25px;
+}
+.cardPara {
+  padding-left: 25px;
+  font-weight: 600;
+}
+.horLine {
+  width: 200px;
+  border: solid 1.5px black;
+}
+.cardSpacer {
+  padding-top: 10%;
+}
+.starIcon {
+  padding-top: 5%;
+  padding-bottom: 10%;
+}
+@media only screen and (max-width: 1210px) {
+  .mainContent {
+    flex-direction: column;
+    padding-bottom: 10%;
+  }
+  .line {
+    display: none;
+  }
+  .leftCol {
+    padding-bottom: 5%;
+  }
+}

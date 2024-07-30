@@ -93,4 +93,10 @@
     width: 450px;
     background-color: #f2fff0;
   }
+  .card1 {
+    border-radius: 15px;
+    height: 300px;
+    width: 350px;
+    margin-top: 1%;
+  }
 }
