@@ -4,6 +4,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-bottom: 10%;
 }
 .mainText {
   display: flex;
@@ -27,4 +28,61 @@
   margin-top: 2%;
   width: 200px;
   border: black solid 2px;
+}
+.row {
+  padding-top: 10%;
+  display: flex;
+  gap: 100px;
+}
+.card1 {
+  border-radius: 15px;
+  height: 350px;
+  width: 500px;
+  background-color: #f2fff0;
+  margin-top: 3%;
+  opacity: 30%;
+}
+.image1 {
+  width: 500px;
+}
+.textCont1 {
+  padding-left: 10%;
+  padding-right: 5%;
+}
+.contHead1 {
+  font-size: 15px;
+  font-weight: bold;
+  color: black;
+}
+.contdate1 {
+  font-weight: 500;
+  font-size: 13px;
+}
+.contPara1 {
+  font-size: 13px;
+}
+.card {
+  border-radius: 15px;
+  height: 450px;
+  width: 700px;
+  background-color: #f2fff0;
+}
+.image {
+  width: 700px;
+}
+.textCont {
+  padding-left: 10%;
+  padding-right: 5%;
+}
+.contHead {
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+}
+.contdate {
+  font-weight: 500;
+  font-size: 13px;
+}
+.contPara {
+  font-size: 13px;
 }
