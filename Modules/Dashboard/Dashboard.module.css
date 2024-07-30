@@ -1,0 +1,67 @@
+.main {
+  padding-top: 5%;
+  padding-left: 10%;
+}
+.company {
+  letter-spacing: 15px;
+  font-weight: 200;
+  padding-left: 1%;
+}
+.spacer {
+  flex: 0.5;
+}
+.span {
+  color: white;
+}
+.title {
+  font-weight: 600;
+  font-size: 64px;
+}
+.content {
+  display: flex;
+}
+.leftcol {
+  display: flex;
+  flex-direction: column;
+}
+.colHead {
+  font-weight: 600;
+  color: white;
+  padding-top: 9%;
+  font-size: 30px;
+}
+.dataImg {
+  height: 350px;
+  width: 550px;
+}
+.text {
+  font-weight: 300;
+  font-size: 15px;
+  color: white;
+  padding-top: 15px;
+}
+.appointments {
+  font-size: 25px;
+  padding-top: 5%;
+  color: white;
+}
+.btn {
+  align-self: center;
+  color: white;
+  font-weight: bold;
+  margin-top: 10%;
+  height: 65px;
+  width: 260px;
+  background-color: #1e4c3c;
+  border-radius: 20px;
+}
+@media only screen and (max-width: 1030px) {
+  .content {
+    flex-direction: column-reverse;
+    gap: 50px;
+  }
+  .dataImg {
+    height: 250px;
+    width: 450px;
+  }
+}
