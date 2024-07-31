@@ -31,7 +31,7 @@ export default function ShopModule() {
         <div className={styles.spacer}></div>
         <div className={styles.imagecont}>
           <Image src={ring} alt={"ring png"} />
-          <p className={styles.cost}>RS 5,000</p>
+          <p className={styles.cost}>RS 3,000</p>
         </div>
       </div>
     </div>
