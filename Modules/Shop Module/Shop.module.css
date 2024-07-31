@@ -3,7 +3,6 @@
   padding-left: 10%;
   display: flex;
   flex-direction: column;
-  padding-bottom: 5%;
 }
 .company {
   letter-spacing: 15px;
@@ -52,6 +51,7 @@
 @media only screen and (max-width: 1030px) {
   .mainContent {
     flex-direction: column-reverse;
+    padding-bottom: 5%;
   }
   .para {
     width: 400px;
