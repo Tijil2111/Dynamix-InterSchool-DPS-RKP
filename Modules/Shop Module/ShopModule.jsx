@@ -11,8 +11,9 @@ export default function ShopModule() {
         </p>
       </div>
       <div className={styles.mainContent}>
-        <div className={styles.para}>
-          {`The LifeLift Ring is more than just a fitness tracker; it’s a
+        <div>
+          <div className={styles.para}>
+            {`The LifeLift Ring is more than just a fitness tracker; it’s a
           comprehensive health companion designed to support seniors in
           maintaining an active and healthy lifestyle. Its advanced features,
           combined with the user-friendly Lifelift website, provide an
@@ -24,12 +25,13 @@ export default function ShopModule() {
           with the tools you need to live a healthier, more connected life.
           Welcome to the future of senior health and well-being. Welcome to
           LifeLift.`}
+          </div>
+          <button className={styles.btn}>Order Now</button>
         </div>
         <div className={styles.spacer}></div>
         <div>
           <Image src={ring} alt={"ring png"} />
-          <p className={styles.cost}>RS 4,499</p>
-          <button className={styles.btn}>Order Now</button>
+          <p className={styles.cost}>RS 5,000</p>
         </div>
       </div>
     </div>
