@@ -19,11 +19,14 @@
 .cardRow {
   display: flex;
   padding-top: 5%;
+
   justify-content: center;
   gap: 200px;
   flex-wrap: wrap;
 }
 .card {
+  border-radius: 10px;
+  background-color: #30735b;
   display: flex;
   flex-direction: column;
   gap: 15px;
@@ -32,13 +35,19 @@
 
 .cardTitle {
   font-size: 30px;
-  font-weight: 200;
+  font-weight: bold;
+  color: white;
 }
 .cardSubtitle {
-  font-size: 20px;
+  font-size: 15px;
+  color: white;
+  font-weight: bold;
 }
 .cardSubtitle1 {
   font-size: 20px;
+}
+.cardImage {
+  border-radius: 10px;
 }
 .cardSubtitle2 {
   font-size: 20px;
@@ -53,6 +62,7 @@
   color: white;
   font-weight: bold;
   margin-top: 5%;
+  margin-bottom: 5%;
   height: 65px;
   width: 200px;
   background-color: #0d261e;

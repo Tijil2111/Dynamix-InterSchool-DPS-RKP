@@ -1,0 +1,19 @@
+.mainContent {
+  display: flex;
+  padding-top: 5%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.title {
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+.subtitle {
+  color: white;
+  font-weight: 600;
+  padding-top: 20px;
+  text-align: center;
+}
