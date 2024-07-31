@@ -29,7 +29,7 @@ export default function ShopModule() {
           <button className={styles.btn}>Order Now</button>
         </div>
         <div className={styles.spacer}></div>
-        <div>
+        <div className={styles.imagecont}>
           <Image src={ring} alt={"ring png"} />
           <p className={styles.cost}>RS 5,000</p>
         </div>
