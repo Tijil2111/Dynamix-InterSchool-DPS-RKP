@@ -22,12 +22,6 @@ export default function WorkShopModule() {
             <div className={styles.textCont1}>
               <p className={styles.contHead1}>Workshop Inaar</p>
               <p className={styles.contdate1}>Friday 13, 2024</p>
-              <p className={styles.contPara1}>
-                it is a long established fact that a reader will be distracted
-                by the readable content of a page when looking at its layout.
-                The point of using Lorem Ipsum is that it has a more-or-less
-                normal{" "}
-              </p>
             </div>
           </div>
           <div className={styles.card}>
@@ -39,11 +33,13 @@ export default function WorkShopModule() {
             <div className={styles.textCont}>
               <p className={styles.contHead}>Workshop Inaar</p>
               <p className={styles.contdate}>Friday 13, 2024</p>
-              <p className={styles.contPara}>
-                it is a long established fact that a reader will be distracted
-                by the readable content of a page when looking at its layout.
-                The point of using Lorem Ipsum is that it has a more-or-less
-                normal{" "}
+              <p className={styles.contPara1}>
+                At the musical workshop for seniors, participants immersed
+                themselves in the soothing world of music therapy. Through
+                gentle rhythms and harmonious melodies, they explored creative
+                expression, enhanced memory recall, and experienced emotional
+                healing. The session fostered connection and joy, providing a
+                refreshing and uplifting outlet for creativity and well-being.
               </p>
             </div>
           </div>
@@ -56,12 +52,6 @@ export default function WorkShopModule() {
             <div className={styles.textCont1}>
               <p className={styles.contHead1}>Workshop Iktara</p>
               <p className={styles.contdate1}>Friday 13, 2024</p>
-              <p className={styles.contPara1}>
-                it is a long established fact that a reader will be distracted
-                by the readable content of a page when looking at its layout.
-                The point of using Lorem Ipsum is that it has a more-or-less
-                normal{" "}
-              </p>
             </div>
           </div>
         </div>
